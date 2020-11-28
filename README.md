@@ -11,7 +11,7 @@ Projeto de conclusão do bootcamp de desenvolvimento Back-end da [{reprograma}](
 Essa é uma *API* com banco de dados de mulheres transexuais e travestis que estão desempregades, possibilitando que essas pessoas se cadastrem para ficarem visíveis aos empregadores e, do outro lado, permitirá que o recrutador busque candidates adequadades ao perfil esperado para as vagas ofertadas em suas empresas.
 
 
-#### Requisitos obrigatórios:
+### Requisitos obrigatórios:
 
 ### Requisitos desejáveis:
 
