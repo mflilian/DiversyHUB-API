@@ -1,7 +1,8 @@
 # DiversyHUB-API
 
-# # {reprograma} Projeto Final - API DiversyHUB - Diversidade dentro do mercado de trabalho! :rainbow:
-Projeto Final elaborado para conclusão do Bootcamp de Desenvolvimento Back-end da {reprograma}
+# # {reprograma} Projeto Final | DiversyHUB - API  
+# # Diversidade dentro do mercado de trabalho! :rainbow:
+Projeto Final elaborado para conclusão do bootcamp de desenvolvimento Back-end da {reprograma}
 
 ## Objetivo
 
