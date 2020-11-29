@@ -3,7 +3,7 @@
 <p align="center">DiversyHUB - Diversidade dentro do mercado de trabalho<p>
 </h1>
 
-# # {reprograma} Projeto Final | DiversyHUB - API :rainbow:
+#  {reprograma} Projeto Final | :rainbow:
 Projeto de conclusão do bootcamp de desenvolvimento Back-end da [{reprograma}](https://reprograma.com.br/) em parceria com o [projeto MINAs do Porto Digital](https://www.portodigital.org/capital-humano/iniciativas-para-a-diversidade/mulheres-em-inovacao-negocios-e-artes-minas)
 
 ## Objetivo
