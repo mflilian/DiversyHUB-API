@@ -1,0 +1,20 @@
+{
+  "name": "DiversyHUB-API",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">\r   <img src=\"public/images/DiversyHUB.JPG\" alt=\"duas pessoas segurando uma bandeira, duas mulheres abraçadas, logomarca DiversyHUB aparece acima da ilustração\" width=\"500\">\r <p align=\"center\">DiversyHUB - Diversidade dentro do mercado de trabalho<p>\r </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mflilian/DiversyHUB-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mflilian/DiversyHUB-API/issues"
+  },
+  "homepage": "https://github.com/mflilian/DiversyHUB-API#readme"
+}
