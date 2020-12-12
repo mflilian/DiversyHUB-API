@@ -6,6 +6,10 @@
 #  {reprograma} Projeto Final | :rainbow:
 Projeto de conclusão do bootcamp de desenvolvimento Back-end da [{reprograma}](https://reprograma.com.br/) em parceria com o [projeto MINAs do Porto Digital](https://www.portodigital.org/capital-humano/iniciativas-para-a-diversidade/mulheres-em-inovacao-negocios-e-artes-minas)
 
+<p align="center">
+Aplicação disponível [aqui](https://diversyhub.herokuapp.com/) :purple_heart: 
+<p>
+
 ## Objetivo
 
 De acordo com a Antra (Associação Nacional de Travestis e Transexuais), 87% da população trans acaba recorrendo à prostituição por falta de oportunidade no mercado de trabalho. E um dos grandes fatores disso é a evasão escolar e, consequentemente, a falta de capacitação. Visando esses fatores, a DiversyHUB foi criada objetivando diminuir a disparidade da não inserção dessa comunidade no mercado de trabalho. Para isso, foi construída uma *API* com banco de dados de mulheres transexuais e travestis que estão desempregades, possibilitando que essas pessoas se cadastrem para ficarem visíveis aos empregadores e, do outro lado, permitirá que o recrutador busque candidates adequadades ao perfil esperado para as vagas ofertadas em suas empresas.  Além disso, a DiversyHUB auxiliará na capacitação das mesmas, redirecionando-es para cursos/treinamentos online que elu possa se inscrever e melhor qualificar-se. 
