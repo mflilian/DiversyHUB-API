@@ -19,20 +19,13 @@ connect();
 
 const getCursoById = (req, res) => {
     const id = req.params.id
-
-    // método find retorna o primeiro resultado que passar na condição
-    // método filter retorna um array de resultados
-  
     const cursoFiltrado = cursos.find((cursos) => cursos.id == id)
-
     res.status(200).send(cursoFiltrado)
 }
 
+
 const getCursosByType = (req, res) => {
-   
-
     const tipo = cursos.filter((cursos) => cursos.tipo)
-
     res.status(200).send(tipo)
 }
 
