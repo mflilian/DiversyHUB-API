@@ -57,12 +57,12 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 | Rotas                                    |                                                    |
 | ---------------------------------------  | -------------------------------------------------- | 
 | GET/                                     | Rota inicial da API                                |
-| GET/candidates/listar                    | Acessar um leitor por seu id                       |
-| GET/candidates/buscar/:id                | Listar livros de um determinado leitor             |
-| POST/candidates/adicionar                | Cadastrar um novo leitor                           |
-| POST/candidates/login                    | Login do leitor                                    |
-| PATCH/candidates/alterar/:id             | Alterar status do livro (bairro e disponibilidade) |
-| DELETE/candidates/deletar/:id            | Excluir um livro                                   |
+| GET/candidates/listar                    | Acessar candidates listades                        |
+| GET/candidates/buscar/:id                | Listar candidates pelo ID                          |
+| POST/candidates/adicionar                | Cadastrar novo currículo                           |
+| POST/candidates/login                    | Login candidate                                    |
+| PATCH/candidates/alterar/:id             | Alterar dados currículo                            |
+| DELETE/candidates/deletar/:id            | Excluir o currículo                                |
 
 
 ### Contribua para o nosso projeto!

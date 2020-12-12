@@ -2,6 +2,7 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const index = require("./routes/index")
 const candidates = require("./routes/candidatesRouter")
+const empresas = require("./routes/empresaRouter")
 require('dotenv-safe').config()
 
 const dataBase = require("./model/database")
@@ -22,5 +23,6 @@ app.use(bodyParser.json())
 
 app.use("/", index)
 app.use("/candidates", candidates)
+app.use("/empresas", empresas);
 
 module.exports = app

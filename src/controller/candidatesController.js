@@ -30,8 +30,7 @@ const registerNewCandidate = (req, res) => {
 /// ROTA DE LOGIN
 
 const login = (req, res) => {
-  console.log("login")
-  candidatesModel.findOne({ email: req.body.email }, (err, candidate) => {
+    candidatesModel.findOne({ email: req.body.email }, (err, candidate) => {
     if (err) {
       return res.status(500).send({ message: err.message });
     };
