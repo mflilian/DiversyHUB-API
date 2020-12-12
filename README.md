@@ -8,15 +8,76 @@ Projeto de conclusão do bootcamp de desenvolvimento Back-end da [{reprograma}](
 
 ## Objetivo
 
-Essa é uma *API* com banco de dados de mulheres transexuais e travestis que estão desempregades, possibilitando que essas pessoas se cadastrem para ficarem visíveis aos empregadores e, do outro lado, permitirá que o recrutador busque candidates adequadades ao perfil esperado para as vagas ofertadas em suas empresas.
+De acordo com a Antra (Associação Nacional de Travestis e Transexuais), 87% da população trans acaba recorrendo à prostituição por falta de oportunidade no mercado de trabalho. E um dos grandes fatores disso é a evasão escolar e, consequentemente, a falta de capacitação. Visando esses fatores, a DiversyHUB foi criada objetivando diminuir a disparidade da não inserção dessa comunidade no mercado de trabalho. Para isso, foi construída uma *API* com banco de dados de mulheres transexuais e travestis que estão desempregades, possibilitando que essas pessoas se cadastrem para ficarem visíveis aos empregadores e, do outro lado, permitirá que o recrutador busque candidates adequadades ao perfil esperado para as vagas ofertadas em suas empresas.  Além disso, a DiversyHUB auxiliará na capacitação das mesmas, redirecionando-es para cursos/treinamentos online que elu possa se inscrever e melhor qualificar-se. 
 
 
-### Requisitos obrigatórios:
+### Funcionalidades:
 
-### Requisitos desejáveis:
-
-### Ferramentas utilizadas
+- [x] O schema das candidatas deve possuir os seguintes campos: id (autogerado), nome, telefone, e-mail, data de nascimento, local de nascimento, idiomas, escolaridade, objetivo e resumo profissional;
+- [x] A API deve permitir o cadastro do currículo da candidata;
+- [x] A API deve permitir a visualização dos currículos cadastrados;
+- [x] A API deve permitir alterações nos currículos;
+- [x] A API deve permitir a exclusão de currículos das candidatas do banco de dados.
+- [x] Criação de usuário e login para a usuária com acesso sem restrição;
+- [ ] Criação de usuário e login para recrutador, com restrição de acesso (somente visualização e seleção).
 
 ### Instalação
 
-### Endpoints
+```bash
+# Clonar o repositório
+$ git clone https://github.com/mflilian/DiversyHUB-API
+
+# Entrar na pasta do repositório
+$ cd DiversyHUB-API
+
+# Instalar as dependências
+$ npm install
+
+# Executar o servidor
+$ npm start
+
+```
+Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu respectivo instalador.
+
+
+#### Tecnologias e pacotes utilizados
+- Node.js
+- MongoDB
+- Git
+- express
+- nodemon
+- dotenv-safe
+- mongoose
+- bcrypt
+- jsonwebtoken
+
+
+#### Rotas/Endpoints
+
+| Rotas                                    |                                                    |
+| ---------------------------------------  | -------------------------------------------------- | 
+| GET/                                     | Rota inicial da API                                |
+| GET/candidates/listar                    | Acessar um leitor por seu id                       |
+| GET/candidates/buscar/:id                | Listar livros de um determinado leitor             |
+| POST/candidates/adicionar                | Cadastrar um novo leitor                           |
+| POST/candidates/login                    | Login do leitor                                    |
+| PATCH/candidates/alterar/:id             | Alterar status do livro (bairro e disponibilidade) |
+| DELETE/candidates/deletar/:id            | Excluir um livro                                   |
+
+
+### Contribua para o nosso projeto!
+
+1. Faça o fork do projeto;
+2. Crie uma branch para realizar suas alterações: `git checkout -b feature/nome-da-nova-branch`
+3. Commit as alterações feitas e abra um pull request
+
+
+------------
+
+
+
+<p align="center">
+Desenvolvido com :purple_heart:  
+</p>
+
+
