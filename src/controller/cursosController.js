@@ -1,16 +1,20 @@
 const cursos = require("../model/curso.json");
-/* const SECRET = process.env.SECRET;
-const jwt = require("jsonwebtoken"); */
+const { connect } = require("../model/database");
+const SECRET = process.env.SECRET;
+const jwt = require("jsonwebtoken"); 
+const { auth } = require("./autenticacao");
+
+connect();
 
  const getAllCursos = (req, res) => {
-  cursos.find((error, cursos) => {
-     if (error) {
-       return response.status(500).send({ message: error.message });
-     } else {
-       return response.status(200).send(cursos);
+ const token = auth(req, res);
+ jwt.verify(token, SECRET, (err) => {
+    if (err) {
+      return res.status(403).send("Token inválido!");
+    }
+       return res.status(200).send(cursos);
      }
-   });
- };
+ )} ;
 
 
 const getCursoById = (req, res) => {
@@ -25,9 +29,9 @@ const getCursoById = (req, res) => {
 }
 
 const getCursosByType = (req, res) => {
-    //  método map para mapear e trazer todos os valores 
+   
 
-    const tipo = cursos.map((cursos) => cursos.tipo)
+    const tipo = cursos.filter((cursos) => cursos.tipo)
 
     res.status(200).send(tipo)
 }

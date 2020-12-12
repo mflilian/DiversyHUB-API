@@ -107,7 +107,6 @@ const login = (req, res) => {
 module.exports = {
     login,
     registerNewCandidate,
-    allCandidates,
     candidateById,
     alterarCandidates,
     deletarCandidate,

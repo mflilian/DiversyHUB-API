@@ -5,7 +5,7 @@ const controller = require("../controller/cursosController")
 
 router.get("/", controller.getAllCursos);
 router.get("/:id", controller.getCursoById);
-router.get("/tipo", controller.getCursosByType);
-router.get("/nome", controller.getCursosByName);
+router.get("/curso/:tipo", controller.getCursosByType);
+router.get("/:nome", controller.getCursosByName);
 
 module.exports = router;

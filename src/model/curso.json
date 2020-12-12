@@ -1,13 +1,12 @@
-
-
-{
-  "administração":[  
+[
+    
     {
       "id": "1adm",
       "nome": "Administração de Empresas",
       "tipo": "Administração",
       "link": "https://www.primecursos.com.br/administracao-de-empresas/"
     },
+
     {
       "id": "2adm",
       "nome": "Assistente Administrativo",
@@ -61,10 +60,8 @@
       "nome": "Administração Pública",
       "tipo": "Administração",
       "link": "https://www.cursosonlineeduca.com.br/item/Curso-Administra%E7%E3o-P%FAblica-%7B47%7D-60-horas.html"
-    }
-  ],
-  "Contabilidade e Economia":[  
-    {
+    },
+        {
       "id": "CE1",
       "nome": "Análise de Demonstrações Financeiras",
       "tipo": "Contabilidade e Economia",
@@ -123,20 +120,311 @@
       "nome": "Padrões Gráficos da Análise Técnica",
       "tipo": "Contabilidade e Economia",
       "link": "https://www.learncafe.com/cursos/padroes-graficos-da-analise-tecnica"
-    }
-  ],
-  "blabla":[  
-    {
-      "id": "",
-      "nome": "",
-      "tipo": "",
-      "link": ""
     },
     {
-      "id": "",
-      "nome": "",
-      "tipo": "",
-      "link": ""
+      "id": "G1",
+      "nome": "Receitas práticas de almoço nutritivo",
+      "tipo": "Gastronomia",
+      "link": "https://www.learncafe.com/cursos/receitas-praticas-de-almoco-nutritivo"
+    },
+    {
+      "id": "G2",
+      "nome": "Receitas diversas com frango",
+      "tipo": "Gastronomia",
+      "link": "https://www.learncafe.com/cursos/frango"
+    },
+    {
+      "id": "G3",
+      "nome": "Pão Caseiro",
+      "tipo": "Gastronomia",
+      "link": "https://www.learncafe.com/cursos/como-fazer-pao-caseiro-2"
+    },
+    {
+      "id": "G4",
+      "nome": "Hamburguer artesanal",
+      "tipo": "Gastronomia",
+      "link": "https://www.learncafe.com/cursos/hamburguer-artesanal-3"
+    },
+    {
+      "id": "G5",
+      "nome": "Tutorial de horta com garrafa pet",
+      "tipo": "Gastronomia",
+      "link": "https://www.learncafe.com/cursos/horta-vertical-garrafa-pet"
+    },
+    {
+      "id": "G6",
+      "nome": "Salgadinhos para Festas",
+      "tipo": "Gastronomia",
+      "link": "https://www.learncafe.com/cursos/curso-gratis-salgadinhos-para-festas"
+    },
+    {
+      "id": "G7",
+      "nome": "Decorando bolos",
+      "tipo": "Gastronomia",
+      "link": "https://www.learncafe.com/cursos/como-decorar-bolos"
+    },
+    {
+      "id": "G8",
+      "nome": "Cozinha: truques, cortes e dicas",
+      "tipo": "Gastronomia",
+      "link": "https://www.learncafe.com/cursos/como-descascar"
+    },
+    {
+      "id": "G9",
+      "nome": "Preparo de receitas clássicas",
+      "tipo": "Gastronomia",
+      "link": "https://www.learncafe.com/cursos/receita"
+    },
+    {
+      "id": "G10",
+      "nome": "Brigadeiro para fazer flores",
+      "tipo": "Gastronomia",
+      "link": "https://www.learncafe.com/cursos/brigadeiro-para-fazer-flores"
+    },
+   
+    {
+      "id": "Ing1",
+      "nome": "Inglês para Iniciantes",
+      "tipo": "Inglês",
+      "link": "https://certificadocursosonline.com/cursos/curso-de-ingles-basico-online-gratis/"
+    },
+    {
+      "id": "Ing2",
+      "nome": "Inglês Básico",
+      "tipo": "Inglês",
+      "link": "https://www.voceaprendeagora.com/aulas"
+    },
+    {
+      "id": "Ing3",
+      "nome": "Elementary English Course",
+      "tipo": "Inglês",
+      "link": "https://mooec.com/courses/elementary-english-course"
+    },
+    {
+      "id": "Ing4",
+      "nome": "Na Rota da Fluência ",
+      "tipo": "Inglês",
+      "link": "https://aprendafalaringles.com.br/cursos/marciadaniela"
+    },
+    {
+      "id": "Ing5",
+      "nome": "InglÊs - Fast Movers",
+      "tipo": "Inglês",
+      "link": "https://inamara.com/infos-do-curso-online/"
+    },
+    {
+      "id": "Ing6",
+      "nome": "Aprenda Inglês da Vida Real",
+      "tipo": "Inglês",
+      "link": "https://aprendafalaringles.com.br/carolmeensina"
+    },
+    {
+      "id": "Ing7",
+      "nome": "Open English",
+      "tipo": "Inglês",
+      "link": "https://www.openenglish.com.br/"
+    },
+    {
+      "id": "Ing8",
+      "nome": "Vocabulário e Fluência",
+      "tipo": "Inglês",
+      "link": "https://www.inglesnapontadalingua.com.br/curso-collocations"
+    },
+    {
+      "id": "Ing9",
+      "nome": "Inglês para você",
+      "tipo": "Inglês",
+      "link": "https://www.mairovergara.com/curso-de-ingles-mairo-vergara/"
+    },
+    {
+      "id": "Ing10",
+      "nome": "ITalki",
+      "tipo": "Inglês",
+      "link": "https://www.italki.com/?sscid=c1k4_eabv9&ref=sas_affiliate&utm_source=ShareASale&utm_medium=ExternalAffiliate&utm_campaign=1679144_1355613"
+    },
+    
+    {
+      "id": "Inf1",
+      "nome": "Informática básica",
+      "tipo": "Informática",
+      "link": "https://www.unovacursos.com.br/curso/curso-gratuito-online-informatica-basica&gclid=Cj0KCQiA8dH-BRD_ARIsAC24umYpj-ML-qfHJeai99b-wK55ZSO9Xuj2q1E8UflTJyZAK0KmI44LrAgaAs3HEALw_wcB"
+    },
+    {
+      "id": "Inf2",
+      "nome": "Informática Básica II",
+      "tipo": "Informática",
+      "link": "https://www.pensarcursos.com.br/curso/informaticabasica&gclid=Cj0KCQiA8dH-BRD_ARIsAC24umb283jkh-_qs28rGQiuj7ms3jOccvsJLE8mSSNXGYF0q-5g-1FH17caArExEALw_wcB"
+    },
+    {
+      "id": "Inf3",
+      "nome": "Básico sobre Segurança Digital",
+      "tipo": "Informática",
+      "link": "https://cursosescon.com.br/curso/1268"
+    },
+    {
+      "id": "Inf4",
+      "nome": "Gerenciamento de Projetos em Tecnologia da Informação",
+      "tipo": "Informática",
+      "link": "https://cursosescon.com.br/curso/1243"
+    },
+    {
+      "id": "Inf5",
+      "nome": "Redes Computacionais",
+      "tipo": "Informática",
+      "link": "https://cursosescon.com.br/curso/1242"
+    },
+    {
+      "id": "Inf6",
+      "nome": "Sistema Operacional Linux",
+      "tipo": "Informática",
+      "link": "https://cursosescon.com.br/curso/1241"
+    },
+    {
+      "id": "Inf7",
+      "nome": "Pacote Office Intermediário",
+      "tipo": "Informática",
+      "link": "https://cursosescon.com.br/curso/1227"
+    },
+    {
+      "id": "Inf8",
+      "nome": "Básico em Design Gráfico",
+      "tipo": "Informática",
+      "link": "https://cursosescon.com.br/curso/1186"
+    },
+    {
+      "id": "Inf9",
+      "nome": "https://cursosescon.com.br/curso/1175",
+      "tipo": "Informática",
+      "link": "Lógica de Programação"
+    },
+    {
+      "id": "Inf10",
+      "nome": "Produtividade, Agilidade e Desempenho em Informática",
+      "tipo": "Informática",
+      "link": "https://cursosescon.com.br/curso/1111"
+    },
+    
+    {
+      "id": "V1",
+      "nome": "Como vender mais e melhor",
+      "tipo": "Vendas",
+      "link": "https://www.sebrae.com.br/sites/PortalSebrae/cursosonline/como-vender-mais-e-melhor,cdb0b8a6a28bb610VgnVCM1000004c00210aRCRD"
+    },
+    {
+      "id": "V2",
+      "nome": "Vendedor de Loja",
+      "tipo": "Vendas",
+      "link": "https://www.primecursos.com.br/vendedor-de-loja/"
+    },
+    {
+      "id": "V3",
+      "nome": "Plano de Vendas",
+      "tipo": "Vendas",
+      "link": "https://www.primecursos.com.br/plano-de-vendas/"
+    },
+    {
+      "id": "V4",
+      "nome": "Formação de Preço de Venda",
+      "tipo": "Vendas",
+      "link": "https://www.primecursos.com.br/formacao-de-preco-de-venda/"
+    },
+    {
+      "id": "V5",
+      "nome": "Pesquisa de Mercado",
+      "tipo": "Vendas",
+      "link": "https://www.primecursos.com.br/pesquisa-de-mercado/"
+    },
+    {
+      "id": "V6",
+      "nome": "Vendas Diretas",
+      "tipo": "Vendas",
+      "link": "https://www.primecursos.com.br/vendas-diretas/"
+    },
+    {
+      "id": "V7",
+      "nome": "Marketing e Gestão Empresarial",
+      "tipo": "Vendas",
+      "link": "https://www.primecursos.com.br/marketing-e-gestao-empresarial/"
+    },
+    {
+      "id": "V8",
+      "nome": " Gestão de Equipes Comerciais",
+      "tipo": "Vendas",
+      "link": "http://materiais.agendor.com.br/cursos-vendas-vendamais"
+    },
+    {
+      "id": "V9",
+      "nome": "Formação completa especialista em vendas",
+      "tipo": "Vendas",
+      "link": "http://thiagoconcer-com-br.rds.land/formacao-completa-de-vendas-os-3-pilares-das-vendas-palestrante-de-vendas-thiago-concer"
+    },
+    {
+      "id": "V10",
+      "nome": "Gestão de Força de Vendas FGV",
+      "tipo": "Vendas",
+      "link": "https://educacao-executiva.fgv.br/cursos/online"
+    },
+   
+    {
+      "id": "L1",
+      "nome": "Como Desenvolver Times de Alta Performance",
+      "tipo": "Liderança",
+      "link": "https://www.sebrae.com.br/sites/PortalSebrae/cursosonline/lideranca-como-desenvolver-times-de-alta-performance,f990b8a6a28bb610VgnVCM1000004c00210aRCRD"
+    },
+    {
+      "id": "L2",
+      "nome": "Liderança",
+      "tipo": "Liderança",
+      "link": "https://www.educamundo.com.br/cursos-online/lideranca"
+    },
+    {
+      "id": "L3",
+      "nome": "Administrando conflitos",
+      "tipo": "Liderança",
+      "link": "https://www.educamundo.com.br/cursos-online/administracao-de-conflitos"
+    },
+    {
+      "id": "L4",
+      "nome": "Gestão de Pessoas",
+      "tipo": "Liderança",
+      "link": "https://www.educamundo.com.br/cursos-online/gestao-de-pessoas"
+    },
+    {
+      "id": "L5",
+      "nome": "Administrando Melhor o Tempo",
+      "tipo": "Liderança",
+      "link": "https://www.educamundo.com.br/blog/lideranca-profissional-sucesso"
+    },
+    {
+      "id": "L6",
+      "nome": "Gestão das Funções Organizacionais",
+      "tipo": "Liderança",
+      "link": "https://www.educamundo.com.br/cursos-online/gestao-funcoes-organizacionais"
+    },
+    {
+      "id": "L7",
+      "nome": "Plano de negócios",
+      "tipo": "Liderança",
+      "link": "https://www.educamundo.com.br/cursos-online/plano-de-negocios"
+    },
+    {
+      "id": "L8",
+      "nome": "Inteligência Estratégica",
+      "tipo": "Liderança",
+      "link": "https://www.educamundo.com.br/cursos-online/inteligencia-estrategica"
+    },
+    {
+      "id": "L9",
+      "nome": "Relações Interpessoais na Empresa",
+      "tipo": "Liderança",
+      "link": "https://www.educamundo.com.br/cursos-online/relacoes-interpessoais-na-empresa"
+    },
+    {
+      "id": "L10",
+      "nome": "Vença Desafios com Criatividade",
+      "tipo": "Liderança",
+      "link": "https://www.educamundo.com.br/cursos-online/venca-desafios-com-criatividade"
     }
   ]
-}
+
+ 

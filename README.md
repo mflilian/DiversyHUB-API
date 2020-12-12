@@ -72,6 +72,15 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 | POST/empresas/login                      | Login empresa                                      |
 | DELETE/empresas                          | Excluir empresa cadastrada                         |
 
+
+| Rotas Cursos                             |                                                    |
+| ---------------------------------------  | -------------------------------------------------- | 
+| GET/cursos                               | Acessar aos cursos disponíveis                     |
+| GET/cursos/:id                           | Acessar aos cursos pelo ID                         |
+| GET/cursos/tipo                          | Acessar aos cursos pelo tipo                       |
+| GET/cursos/nome                          | Acessar aos cursos pelo nome                       |
+
+
 ### Contribua para o nosso projeto!
 
 1. Faça o fork do projeto;
