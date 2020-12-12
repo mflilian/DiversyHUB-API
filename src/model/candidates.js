@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 const candidatesSchema = new mongoose.Schema({ 
     _id: {type: mongoose.Schema.Types.ObjectId, auto: true, required: true},
 

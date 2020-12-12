@@ -54,16 +54,23 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 
 #### Rotas/Endpoints
 
-| Rotas                                    |                                                    |
+| Rotas  Candidates                        |                                                    |
 | ---------------------------------------  | -------------------------------------------------- | 
 | GET/                                     | Rota inicial da API                                |
-| GET/candidates/listar                    | Acessar candidates listades                        |
 | GET/candidates/buscar/:id                | Listar candidates pelo ID                          |
 | POST/candidates/adicionar                | Cadastrar novo currículo                           |
 | POST/candidates/login                    | Login candidate                                    |
 | PATCH/candidates/alterar/:id             | Alterar dados currículo                            |
 | DELETE/candidates/deletar/:id            | Excluir o currículo                                |
 
+
+| Rotas Empresas                           |                                                    |
+| ---------------------------------------  | -------------------------------------------------- | 
+| GET/empresas                             | Acessar candidates cadastrades                     |
+| GET/empresas/candidate/:id               | Acessar candidates pelo ID                         |
+| POST/empresas/adicionar                  | Cadastrar empresa                                  |
+| POST/empresas/login                      | Login empresa                                      |
+| DELETE/empresas                          | Excluir empresa cadastrada                         |
 
 ### Contribua para o nosso projeto!
 

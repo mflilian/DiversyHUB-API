@@ -4,7 +4,6 @@ const controller = require("../controller/candidatesController")
  
 
 router.get("/buscar/:id", controller.candidateById)
-router.get("/listar", controller.allCandidates) 
 router.post("/", controller.registerNewCandidate)
 router.post("/login", controller.login)
 router.patch("/alterar/:id", controller.alterarCandidates)

@@ -1,0 +1,142 @@
+
+
+{
+  "administração":[  
+    {
+      "id": "1adm",
+      "nome": "Administração de Empresas",
+      "tipo": "Administração",
+      "link": "https://www.primecursos.com.br/administracao-de-empresas/"
+    },
+    {
+      "id": "2adm",
+      "nome": "Assistente Administrativo",
+      "tipo": "Administração",
+      "link": "https://www.primecursos.com.br/assistente-administrativo/"
+    },
+    {
+      "id": "3adm",
+      "nome": "Administração de Vendas",
+      "tipo": "Administração",
+      "link": "https://www.primecursos.com.br/administracao-de-vendas/"
+    },
+    {
+      "id": "4adm",
+      "nome": "Administração de RH",
+      "tipo": "Administração",
+      "link": "https://www.primecursos.com.br/administracao-de-rh/"
+    },
+    {
+      "id": "5adm",
+      "nome": "Adm. de Recursos Materiais e Patrimoniais",
+      "tipo": "Administração",
+      "link": "https://www.primecursos.com.br/adm-de-recursos-materiais-e-patrimoniais/"
+    },
+    {
+      "id": "6adm",
+      "nome": "Administração em Enfermagem",
+      "tipo": "Administração",
+      "link": "https://www.primecursos.com.br/administracao-em-enfermagem/"
+    },
+    {
+      "id": "7adm",
+      "nome": "Administração de Marketing",
+      "tipo": "Administração",
+      "link": "https://www.cursosonlineeduca.com.br/item/Curso-Administra%E7%E3o-de-Marketing-%7B47%7D-25-horas.html"
+    },
+    {
+      "id": "8adm",
+      "nome": "Administração de Vendas",
+      "tipo": "Administração",
+      "link": "https://www.cursosonlineeduca.com.br/item/Curso-Administra%E7%E3o-de-Vendas-%7B47%7D-30-horas.html"
+    },
+    {
+      "id": "9adm",
+      "nome": "Administração Estratégica",
+      "tipo": "Administração",
+      "link": "https://www.cursosonlineeduca.com.br/item/Curso-Administra%E7%E3o-Estrat%E9gica-%7B47%7D-60-horas--.html"
+    },
+    {
+      "id": "10adm",
+      "nome": "Administração Pública",
+      "tipo": "Administração",
+      "link": "https://www.cursosonlineeduca.com.br/item/Curso-Administra%E7%E3o-P%FAblica-%7B47%7D-60-horas.html"
+    }
+  ],
+  "Contabilidade e Economia":[  
+    {
+      "id": "CE1",
+      "nome": "Análise de Demonstrações Financeiras",
+      "tipo": "Contabilidade e Economia",
+      "link": "https://www.cursosonlineeduca.com.br/item/Curso-An%E1lise-de-Demonstra%E7%F5es-Financeiras-%7B47%7D-20-horas.html"
+    },
+    {
+      "id": "CE2",
+      "nome": "Contabilidade para iniciantes",
+      "tipo": "Contabilidade e Economia",
+      "link": "https://certificadocursosonline.com/cursos/curso-de-contabilidade-online/"
+    },
+    {
+      "id": "CE3",
+      "nome": "Controles Financeiros",
+      "tipo": "Contabilidade e Economia",
+      "link": "https://www.cursosonlineeduca.com.br/item/Curso-Controles-Financeiros-%7B47%7D-45-horas.html"
+    },
+    {
+      "id": "CE4",
+      "nome": "Gestão Financeira para Pequenas e Médias Empresas",
+      "tipo": "Contabilidade e Economia",
+      "link": "https://www.cursosonlineeduca.com.br/item/Curso-Gest%E3o-Financeira-para-Pequenas-e-M%E9dias-Empresas-%7B47%7D-35-horas.html"
+    },
+    {
+      "id": "CE5",
+      "nome": "Noções Básicas Bolsa de Valores",
+      "tipo": "Contabilidade e Economia",
+      "link": "https://www.cursosonlineeduca.com.br/item/Curso-No%E7%F5es-B%E1sicas-Bolsa-de-Valores-%7B47%7D-25-horas.html"
+    },
+    {
+      "id": "CE6",
+      "nome": "Contabilidade Gerencial ",
+      "tipo": "Contabilidade e Economia",
+      "link": "https://www.cursosonlineeduca.com.br/item/Curso-Contabilidade-Gerencial-%7B47%7D-55-horas.html"
+    },
+    {
+      "id": "CE7",
+      "nome": "Nova Economia",
+      "tipo": "Contabilidade e Economia",
+      "link": "https://www.learncafe.com/cursos/modulo-3---curso-basico"
+    },
+    {
+      "id": "CE8",
+      "nome": "De olho nos fundamentos",
+      "tipo": "Contabilidade e Economia",
+      "link": "https://www.learncafe.com/cursos/de-olho-nos-fundamentos"
+    },
+    {
+      "id": "CE9",
+      "nome": "A Conjuntura Econômica no Tempo",
+      "tipo": "Contabilidade e Economia",
+      "link": "https://www.learncafe.com/cursos/aulas-usp--a-conjuntura-economica-no-tempo"
+    },
+    {
+      "id": "CE10",
+      "nome": "Padrões Gráficos da Análise Técnica",
+      "tipo": "Contabilidade e Economia",
+      "link": "https://www.learncafe.com/cursos/padroes-graficos-da-analise-tecnica"
+    }
+  ],
+  "blabla":[  
+    {
+      "id": "",
+      "nome": "",
+      "tipo": "",
+      "link": ""
+    },
+    {
+      "id": "",
+      "nome": "",
+      "tipo": "",
+      "link": ""
+    }
+  ]
+}

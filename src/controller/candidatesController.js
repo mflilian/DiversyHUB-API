@@ -48,25 +48,6 @@ const login = (req, res) => {
   });
 };
 
-///// PESSOAS CADASTRADADS 
-
-  const allCandidates = (req, res) => {
-    const token = auth(req, res);
-    
-    jwt.verify(token, SECRET, (err) => {
-      if (err) {
-        return res.status(403).send("Invalid token");
-          }
-    }),
-    candidatesModel.find((err, candidates) => {
-      if (err) {
-      return res.status(424).send({ message: err.message });
-      }
-      res.status(200).send(candidates);
-    })
-  }
-  
-
 //// CANDIDATES POR ID 
 
   const candidateById = (req, res) => {

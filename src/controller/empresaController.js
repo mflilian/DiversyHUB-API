@@ -49,6 +49,8 @@ const registerNewEmpresa = (req, res) => {
     });
   };
   
+  //// TODOS OS CANDIDATOS 
+
   const allCandidates = (req, res) => {
   const token = auth(req, res);
   jwt.verify(token, SECRET, (err) => {
@@ -63,6 +65,8 @@ const registerNewEmpresa = (req, res) => {
     res.status(200).send(candidate);
   });
 };
+
+//// CANDIDATOS POR ID
 
 const candidateById = (req, res) => {
     const id = req.params.id;
