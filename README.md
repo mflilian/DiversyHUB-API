@@ -7,6 +7,7 @@
 Projeto de conclusão do bootcamp de desenvolvimento Back-end da [{reprograma}](https://reprograma.com.br/) em parceria com o [projeto MINAs do Porto Digital](https://www.portodigital.org/capital-humano/iniciativas-para-a-diversidade/mulheres-em-inovacao-negocios-e-artes-minas)
 
 <p align="center">
+
 Aplicação disponível [aqui](https://diversyhub.herokuapp.com/) :purple_heart: 
 <p>
 
