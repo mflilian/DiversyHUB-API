@@ -6,7 +6,7 @@ router.get("/",controller.allCandidates);
 router.get("/:id", controller.candidateById);
 router.post("/", controller.registerNewEmpresa);
 router.post("/login", controller.loginEmpresa);
-router.delete("/", controller.removeEmpresaByEmail);
+router.delete("/", controller.removeEmpresaById);
 
 module.exports = router;
 

@@ -80,17 +80,17 @@ const candidateById = (req, res) => {
     });
   };
 
-  const removeEmpresaByEmail = (req, res) => {
+  const removeEmpresaById = (req, res) => {
     const token = auth(req, res);
     jwt.verify(token, SECRET, (err) => {
       if (err) {
         return res.status(403).send("Invalid token!");
       }
       const params = req.query;
-      empresaModel.deleteOne(params, (err, email) => {
+      empresaModel.deleteOne(params, (err, id) => {
         if (err) {
           return res.status(424).send({ message: err.message });
-        } else if (email) {
+        } else if (id) {
           return res.status(200).send("Empresa removida com sucesso!");
         }
         res.status(404).send("Empresa nao encontrada!");
@@ -105,5 +105,5 @@ module.exports = {
     loginEmpresa,
     allCandidates,
     candidateById,
-    removeEmpresaByEmail
+    removeEmpresaById
 }
