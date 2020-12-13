@@ -49,12 +49,14 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 - Node.js
 - MongoDB
 - Git
+- Mongo Atlas
 - express
 - nodemon
 - dotenv-safe
 - mongoose
 - bcrypt
 - jsonwebtoken
+
 
 
 #### Rotas/Endpoints
