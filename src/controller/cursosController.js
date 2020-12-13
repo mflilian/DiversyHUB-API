@@ -1,10 +1,8 @@
+require("dotenv-safe").config();
 const cursos = require("../model/curso.json");
-const { connect } = require("../model/database");
 const SECRET = process.env.SECRET;
 const jwt = require("jsonwebtoken"); 
 const { auth } = require("./autenticacao");
-
-connect();
 
  const getAllCursos = (req, res) => {
  const token = auth(req, res);
@@ -17,23 +15,32 @@ connect();
  )} ;
 
 
-const getCursoById = (req, res) => {
+    const getCursoById = (req, res) => {
     const id = req.params.id
-    const cursoFiltrado = cursos.find((cursos) => cursos.id == id)
+    const cursoFiltrado = cursos.find((cursos) => { 
+    return cursos.id == id 
+    })
     res.status(200).send(cursoFiltrado)
 }
 
+  const getCursosByType = (req, res) => {
+  const tipo = req.params.tipo
+    const cursoFiltradoT = cursos.filter((cursos) => {
+    return cursos.tipo == tipo
+    
+  })
 
-const getCursosByType = (req, res) => {
-    const tipo = cursos.filter((cursos) => cursos.tipo)
-    res.status(200).send(tipo)
+  res.status(200).send(cursoFiltradoT)
+
 }
 
 const getCursosByName = (req, res) => {
-    const cursos = req.params.nome
-    const cursosFiltradosPorNome = cursos.filter((cursos) => cursos.nome == nome)
+    const nome = req.params.nome
+    const cursosFiltradosPorNome = cursos.filter((cursos) => {
+      return cursos.nome == nome
+    })
 
-    res.status(200).send(cursosFiltradosPorNome);
+   res.status(200).send(cursosFiltradosPorNome);
 }
 
 

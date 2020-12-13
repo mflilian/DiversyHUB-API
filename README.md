@@ -81,9 +81,9 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 | Rotas Cursos                             |                                                    |
 | ---------------------------------------  | -------------------------------------------------- | 
 | GET/cursos                               | Acessar aos cursos disponíveis                     |
-| GET/cursos/:id                           | Acessar aos cursos pelo ID                         |
-| GET/cursos/tipo                          | Acessar aos cursos pelo tipo                       |
-| GET/cursos/nome                          | Acessar aos cursos pelo nome                       |
+| GET/cursos/id/:id                        | Acessar aos cursos pelo ID                         |
+| GET/cursos/curso/:tipo                   | Acessar aos cursos pelo tipo                       |
+| GET/cursos/nome/:nome                    | Acessar aos cursos pelo nome                       |
 
 
 ### Contribua para o nosso projeto!

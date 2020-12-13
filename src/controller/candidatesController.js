@@ -44,7 +44,7 @@ const login = (req, res) => {
     };
 
     const token = jwt.sign({ email: candidate.email }, SECRET);
-    return res.status(200).send(token);
+    return res.status(200).send( { token:token } );
   });
 };
 
