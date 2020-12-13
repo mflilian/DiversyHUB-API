@@ -64,7 +64,6 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 | Rotas  Candidates                        |                                                    |
 | ---------------------------------------  | -------------------------------------------------- | 
 | GET/                                     | Rota inicial da API                                |
-| GET/candidates/buscar/:id                | Listar candidates pelo ID                          |
 | POST/candidates/adicionar                | Cadastrar novo currículo                           |
 | POST/candidates/login                    | Login candidate                                    |
 | PATCH/candidates/alterar/:id             | Alterar dados currículo                            |
