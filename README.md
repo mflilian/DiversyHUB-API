@@ -50,6 +50,7 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 - MongoDB
 - Git
 - Mongo Atlas
+- Heroku
 - express
 - nodemon
 - dotenv-safe
