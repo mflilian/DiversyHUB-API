@@ -24,7 +24,7 @@ De acordo com a Antra (Associação Nacional de Travestis e Transexuais), 87% da
 - [x] A API deve permitir alterações nos currículos;
 - [x] A API deve permitir a exclusão de currículos das candidatas do banco de dados.
 - [x] Criação de usuário e login para a usuária com acesso sem restrição;
-- [ ] Criação de usuário e login para recrutador, com restrição de acesso (somente visualização e seleção).
+- [x] Criação de usuário e login para recrutador, somente visualização e seleção.
 
 ### Instalação
 
